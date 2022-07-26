@@ -26,7 +26,7 @@ function App() {
   useEffect(() => {
     const randomColor = getRandomElement(colors)
     setColor(randomColor)
-  }, [statePass])
+  }, [statePass,handlePlusReset])
 
   
 
